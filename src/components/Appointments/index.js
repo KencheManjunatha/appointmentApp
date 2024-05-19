@@ -131,7 +131,7 @@ class Appointments extends Component {
                 <AppointmentItem
                   key={eachAppointment.id}
                   appointmentDetails={eachAppointment}
-                  toggleIsStarted={this.toggleIsStared}
+                  toggleIsStared={this.toggleIsStared}
                 />
               ))}
             </ul>
